@@ -24,7 +24,7 @@ class _ImageChatState extends State<ImageChat> {
 
   final ImagePicker _imagePicker = ImagePicker();
 
-  final apiUrl='https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$NewsAPIKey';
+  final apiUrl='https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$GeminiAPIKey';
 
   final header={
     'Content-Type': 'application/json',

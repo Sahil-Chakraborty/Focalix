@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:focalix/secrets.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
 
@@ -23,7 +24,7 @@ class _ImageChatState extends State<ImageChat> {
 
   final ImagePicker _imagePicker = ImagePicker();
 
-  final apiUrl='https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBgY1q59AN_QS557nhFtBOPVIXMk5CQ2rw';
+  final apiUrl='https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$NewsAPIKey';
 
   final header={
     'Content-Type': 'application/json',

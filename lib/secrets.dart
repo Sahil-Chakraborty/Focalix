@@ -1,1 +1,1 @@
-const NewsAPIKey='AIzaSyBgY1q59AN_QS557nhFtBOPVIXMk5CQ2rw';
+const GeminiAPIKey='AIzaSyBgY1q59AN_QS557nhFtBOPVIXMk5CQ2rw';
